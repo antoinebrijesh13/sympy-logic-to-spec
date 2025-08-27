@@ -1,0 +1,6 @@
+Verification Summary:
+====================
+Total pairs processed: 212
+Equivalent pairs: 212
+Non-equivalent pairs: 0
+Errors: 0

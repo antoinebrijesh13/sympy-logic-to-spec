@@ -1,0 +1,14 @@
+logical statement: ((out.gear == gearType_fourth) && (TWAIT < rtDW.chartAbsoluteTimeCounter - rtDW.durationLastReferenceTick_4)) -> (rtY.gear == gearType_third)
+
+simplified statement : (B && (D < E)) -> C
+
+
+Variable Mappings:
+A -> "(TWAIT < rtDW.chartAbsoluteTimeCounter - rtDW.durationLastReferenceTick_4)"
+B -> "(out.gear == gearType_fourth)"
+C -> "(rtY.gear == gearType_third)"
+D -> "TWAIT"
+E -> "rtDW.chartAbsoluteTimeCounter - rtDW.durationLastReferenceTick_4"
+
+Final simplified expression:
+(((out.gear == gearType_fourth)) && (TWAIT < rtDW.chartAbsoluteTimeCounter - rtDW.durationLastReferenceTick_4)) -> ((rtY.gear == gearType_third))

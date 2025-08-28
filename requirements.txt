@@ -1,0 +1,4 @@
+pandas
+requests
+sympy
+z3-solver
